@@ -32,8 +32,8 @@ int CountMark(int[] marks, int n)
 
 string ResultMark(int a, int b)
 {
-  if (a > b) return Convert.ToString(3); // "NO"
-  return Convert.ToString(4); // "YES"
+  if (a > b) return $"{Convert.ToString(3)} \nПо нечетным лучше прогуливать! "; // "NO"
+  return $"{Convert.ToString(4)} \nВася Молодец!"; // "YES"
 }
 
 
